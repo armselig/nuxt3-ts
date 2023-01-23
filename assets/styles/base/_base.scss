@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  font-family: var(--font-family);
+}
+
+a {
+  color: var(--color-quarternary);
+  cursor: pointer;
+}
+
+p {
+  margin: 1.5rem 0 0;
+}
+
+ol,
+ul {
+  padding-left: var(--space-1);
+}
