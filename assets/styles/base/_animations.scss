@@ -1,0 +1,10 @@
+.page-transition-enter-active,
+.page-transition-leave-active {
+  transition: all 0.4s;
+}
+
+.page-transition-enter-from,
+.page-transition-leave-to {
+  filter: blur(1rem);
+  opacity: 0;
+}

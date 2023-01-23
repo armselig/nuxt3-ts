@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "stylelint-a11y"
+  ],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-recommended-vue",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "import-notation": "string",
+    "max-nesting-depth": 4,
+    "selector-class-pattern": null
+  }
+}

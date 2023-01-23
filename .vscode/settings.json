@@ -1,0 +1,4 @@
+{
+    "eslint.packageManager": "pnpm",
+    "stylelint.packageManager": "pnpm"
+}
